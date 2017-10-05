@@ -4,8 +4,9 @@ html, body {
   padding: 0;
 }
 .justify{
-   text-align: justify;
-   line-height: 130%; 
+    text-align: justify;
+    line-height: 130%; 
+    margin-bottom: .15em;
 }
 .mdl-demo .mdl-layout__header-row {
   padding-left: 40px;
@@ -107,11 +108,6 @@ html, body {
   font-size: inherit;
   margin: 0;
   margin-bottom: 0.5em;
-}
-.mdl-demo section .section__text br {
-  font-size: inherit;
-  margin: 0;
-  margin-bottom: 0.1em;
 }
 .mdl-demo section .section__circle-container > .section__circle-container__circle {
   width: 64px;

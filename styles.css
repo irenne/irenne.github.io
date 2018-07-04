@@ -48,7 +48,7 @@ html, body {
 }
 .mdl-demo .mdl-layout__content section {
   position: relative;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
   margin-top: 28px;
 }
 .mdl-demo section.section--center {
@@ -86,6 +86,7 @@ html, body {
       -ms-flex-negative: 0;
           flex-shrink: 0;
   padding-top: 8px;
+  padding-bottom: 8px;
 }
 .mdl-demo section .section__text h5 {
   font-size: inherit;

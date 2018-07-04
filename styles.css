@@ -34,8 +34,8 @@ html, body {
   width: calc(100% - 80px);
 }
 .mdl-demo .mdl-card .mdl-card__supporting-text a{
-  color:  #00BCD4;/*cyan 500*/
-  text-decoration: none;
+  color:  #607D8B;/*blue-grey 500*/
+  text-decoration: underline;
 }
 .mdl-demo .mdl-card__supporting-text a:hover,
 .mdl-demo .mdl-card__supporting-text a:active {
@@ -78,23 +78,6 @@ html, body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.mdl-demo section .section__circle {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -webkit-flex-shrink: 1;
-      -ms-flex-negative: 1;
-          flex-shrink: 1;
-}
 .mdl-demo section .section__text {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
@@ -108,52 +91,6 @@ html, body {
   font-size: inherit;
   margin: 0;
   margin-bottom: 0.5em;
-}
-.mdl-demo section .section__circle-container > .section__circle-container__circle {
-  width: 64px;
-  height: 64px;
-  border-radius: 32px;
-  margin: 8px 0;
-}
-.mdl-demo section .section__circle-container > .section__circle-container__broom {
-  width: 64px;
-  height: 64px;
-  border-radius: 32px;
-  margin: 8px 0;
-  background-image: url('icons/broom.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 50%;
-}
-.mdl-demo section .section__circle-container > .section__circle-container__restore {
-  width: 64px;
-  height: 64px;
-  border-radius: 32px;
-  margin: 8px 0;
-  background-image: url('icons/restore.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 50%;
-}
-.mdl-demo section .section__circle-container > .section__circle-container__presentation {
-  width: 64px;
-  height: 64px;
-  border-radius: 32px;
-  margin: 8px 0;
-  background-image: url('icons/presentation-play.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 50%;
-}
-.mdl-demo section .section__circle-container > .section__circle-container__school {
-  width: 64px;
-  height: 64px;
-  border-radius: 32px;
-  margin: 8px 0;
-  background-image: url('icons/school.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 50%;
 }
 .mdl-demo section.section--center .section__text:not(:last-child) {
   border-bottom: 1px solid rgba(0,0,0,.13);
